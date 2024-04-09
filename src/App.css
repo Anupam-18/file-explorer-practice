@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  margin-top: 10px;
 }
 
 .App-logo {
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+.folderParent {
+  cursor: pointer;
+  width: 280px;
+}
+.folder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  height: 35px;
+  padding: 10px;
+  background-color: darkgoldenrod;
+  box-sizing: border-box;
+  border: 1px solid rosybrown;
+  border-radius: 2px;
+}
+.file {
+  padding-left: 20px;
+  width: 180px;
+  height: 30px;
+  background-color: bisque;
+  box-sizing: border-box;
+  border: 1px solid rosybrown;
+  border-radius: 2px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.folderBtn {
+  height: 25px;
+}
+.inputParent {
+  width: 200px;
 }
